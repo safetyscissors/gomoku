@@ -1,0 +1,18 @@
+<div id="chatPane" class="horizontal"><form id="chatForm" onsubmit="return false">
+	<div id="chatHeader"></div>
+	<div id="chatHistory"></div>
+	<input type="hidden" id="user" name="user" value="andrew">
+	<input type="text" id="msg" name="msg" placeholder="press Enter to send" maxlength="100"><br>
+</form></div>
+<div id="endgamePopup"><div id="winmsg"></div>
+	<span id="lobby" class="endgame emphasize">return to lobby</span>
+	<span id="save" class="endgame disabled">save game</span>
+	<span id="close" class="endgame">close popup</span>
+</div>
+<div id="gameMenu">
+	<span id="lobby" class="endgame emphasize">return to lobby</span>
+	<span id="undo" class="endgame">undo move</span>
+	<span id="hidechat" class="hidden">hide chat</span>
+	<span id="quit" class="endgame">quit game</span>
+</div>
+<canvas id="canvas"></canvas>

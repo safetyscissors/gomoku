@@ -1,0 +1,71 @@
+#chatPane{
+	display:none;
+}
+.horizontal{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0px;
+	width:300px;
+	border:thin solid #aaa;
+	padding:0;
+	margin:0;
+	background:white;
+	-moz-box-shadow:5px 0 3px #aaa;
+	-webkit-box-shadow:5px 0 3px #aaa;
+	box-shadow:5px 0px 3px #aaa;
+	z-index:9;
+}
+.horizontal #chatHeader{
+	position:absolute;
+	top:10px;
+	height:50px;
+	width:100%;
+	background:#00CC00;
+	font-size:40px;
+	z-index:2;
+	-moz-box-shadow:0 5px 3px #fff;
+	-webkit-box-shadow:0 5px 3px #fff;
+	box-shadow:0 5px 3px #fff;
+}
+.horizontal #chatHistory{
+	position:absolute;
+	top:60px;
+	bottom:84px;
+	width:100%;
+	background:#fdfdfd;
+	z-index:1;
+	overflow:auto;
+}
+	.horizontal .myChat{
+		float:right;
+		clear:both;
+		width:80%;
+		background:#eee;
+		padding:5px;
+		margin:2px;
+	}
+	.horizontal .rcdChat{
+		float:left;
+		clear:both;
+		width:80%;
+		background:lightgreen;
+		padding:5px;
+		margin:2px;
+	}
+.horizontal #msg{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:30px;
+	border:none;
+	border-top:3px solid #00CC00;
+	padding:5px;
+	padding-bottom:20px;
+	margin:0;
+	height:25px;
+	z-index:3;
+}
+	.horizontal #msg:focus{
+		outline:none;
+	}
